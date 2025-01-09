@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystical Unicode Translator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <h1><i class="fas fa-moon"></i> Mystic Translator <i class="fas fa-stars"></i></h1>
+        <h2>⟡ Unicode Sigil Converter ⟡</h2>
+        
+        <div class="translator">
+            <div class="input-section">
+                <label for="input">✧ Enter Unicode or Sigil:</label>
+                <textarea id="input" placeholder="Enter Unicode (2764) or paste a sigil (❤)"></textarea>
+                <div class="input-info">
+                    <i class="fas fa-magic"></i> Enter Unicode to reveal its sigil, or paste a sigil to unveil its Unicode
+                </div>
+            </div>
+
+            <div class="crystal-divider"></div>
+
+            <button id="translateBtn" class="translate-btn">
+                <i class="fas fa-infinity"></i> Transmute
+            </button>
+
+            <div class="crystal-divider"></div>
+
+            <div class="output-section">
+                <label for="output">✧ Mystical Result:</label>
+                <div id="output" class="output-box">Your translation awaits...</div>
+                <div class="output-info">
+                    <i class="fas fa-hand-sparkles"></i> Click to capture the essence
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
